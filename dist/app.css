@@ -1,0 +1,94 @@
+.green {
+  color: blue;
+}
+
+.margin1 {
+  margin: 10px;
+}
+
+.margin2 {
+  margin: 20px;
+}
+
+.margin3 {
+  margin: 30px;
+}
+
+.margin4 {
+  margin: 40px;
+}
+
+.margin5 {
+  margin: 50px;
+}
+
+.item1 {
+  width: 500px;
+}
+
+.item2 {
+  width: 500px;
+}
+
+.padding-6 {
+  padding: 60px;
+}
+
+.padding-4 {
+  padding: 40px;
+}
+
+.padding-2 {
+  padding: 20px;
+}
+
+.Margin-top-15 {
+  margin-top: 15px;
+}
+
+.Margin-top-30 {
+  margin-top: 30px;
+}
+
+.Margin-top-45 {
+  margin-top: 45px;
+}
+
+.Margin-top-60 {
+  margin-top: 60px;
+}
+
+.Margin-top-60 {
+  margin-top: 60px;
+}
+
+.Margin-top-45 {
+  margin-top: 45px;
+}
+
+.Margin-top-30 {
+  margin-top: 30px;
+}
+
+.Margin-top-15 {
+  margin-top: 15px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  width: 100%;
+  background-color: lightgrey;
+}
+
+#prova {
+  color: red;
+  width: 100vw;
+  height: 100vh;
+  background-color: lightblue;
+  background-color: green;
+}
+
