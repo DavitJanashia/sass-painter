@@ -1,0 +1,27 @@
+header{
+
+  section.n1{
+    .my-container{
+      width: 1200px;
+      margin: auto;
+
+      .navbar-up{
+        height: 50px;
+        background-color: red;
+
+        ul{
+          display: flex;
+          justify-content: flex-end;
+        }
+
+      }
+
+      .navbar-down{
+        height: 50px;
+        background-color: green;
+      }
+
+    }
+
+  }
+}

@@ -10977,9 +10977,12 @@ return jQuery;
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var $ = __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js");
+var $ = __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js"); // cosi non bisogna mettere il link del JQUERY nel head del HTML
 
-function init() {}
+
+function init() {
+  console.log('Davit Janashia');
+}
 
 $(document).ready(init);
 
@@ -11003,8 +11006,8 @@ $(document).ready(init);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/giulia/Desktop/laravel-prova/src/app.js */"./src/app.js");
-module.exports = __webpack_require__(/*! /Users/giulia/Desktop/laravel-prova/src/app.scss */"./src/app.scss");
+__webpack_require__(/*! /Users/giulia/Desktop/esercizicorso/JS/sass-painter/src/app.js */"./src/app.js");
+module.exports = __webpack_require__(/*! /Users/giulia/Desktop/esercizicorso/JS/sass-painter/src/app.scss */"./src/app.scss");
 
 
 /***/ })

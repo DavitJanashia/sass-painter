@@ -4,38 +4,45 @@
   background-color: lightblue;
 }
 
-@for $i from 1 through 5 {
+// I CICLI : ESEMPI
 
-  .margin#{$i} {
-    margin: $i * 10px;
-  }
+// CICLO FOR
+// @for $i from 1 through 5 {
+//
+//   .margin#{$i} {
+//     margin: $i * 10px;
+//   }
+//
+// }
 
-}
 
-@each $i in item1, item2 {
-  .#{$i} {
-    width: 500px;
-  }
-}
 
-$i: 6;
-@while $i > 0 {
-  .padding-#{$i}{
-    padding: $i * 10px;
-  }
-  $i: $i - 2;
-}
+// CICLO EACH
+// @each $i in item1, item2 {
+//   .#{$i} {
+//     width: 500px;
+//   }
+// }
 
-@for $k from 1 through 4 {
-  .Margin-top-#{$k*15}{
-    margin-top: $k*15px;
-  }
-}
+// CICLO WHILE
+// $i: 6;
+// @while $i > 0 {
+//   .padding-#{$i}{
+//     padding: $i * 10px;
+//   }
+//   $i: $i - 2;
+// }
 
-$i: 4;
-@while $i > 0 {
-  .Margin-top-#{$i*15}{
-    margin-top: $i * 15px;
-  }
-  $i: $i - 1;
-}
+// @for $k from 1 through 4 {
+//   .Margin-top-#{$k*15}{
+//     margin-top: $k*15px;
+//   }
+// }
+//
+// $i: 4;
+// @while $i > 0 {
+//   .Margin-top-#{$i*15}{
+//     margin-top: $i * 15px;
+//   }
+//   $i: $i - 1;
+// }

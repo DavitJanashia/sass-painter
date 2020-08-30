@@ -1,5 +1,5 @@
 {
-  "name": "laravel-prova",
+  "name": "sass-painter",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,13 +9,20 @@
     "watch": "npm run development -- --watch",
     "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
     "prod": "npm run production",
-    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "cleanup": "rimraf dist/img",
+    "predevelopment": "npm run cleanup",
+    "prewatch": "npm run cleanup",
+    "prehot": "npm run cleanup",
+    "preproduction": "npm run cleanup"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "cross-env": "^7.0.2",
+    "gulp-jshint": "^2.1.0",
+    "jshint": "^2.12.0",
     "laravel-mix": "^5.0.5",
     "resolve-url-loader": "^3.1.0",
     "sass": "^1.26.10",
@@ -23,7 +30,11 @@
     "vue-template-compiler": "^2.6.12"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.14.0",
     "del": "^5.1.0",
+    "font-awesome": "^4.7.0",
+    "gem": "^2.4.3",
+    "gulp": "^4.0.2",
     "jquery": "^3.5.1",
     "rimraf": "^3.0.2"
   }

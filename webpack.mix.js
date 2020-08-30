@@ -16,6 +16,8 @@ mix
   .sass('src/app.scss', 'dist/')
   .copy('src/*.html', 'dist/')
   .copyDirectory('src/img/', 'dist/img')
+
+
 ;
 
 

@@ -1,9 +1,13 @@
 @import "partials/_variables.scss";//tanmimdevroba ese unda iyos.. headeris importi unda iyos dabla radgan specifikurad magas exeba
 @import "partials/_common.scss";
+
 // es * unda iyos variables da commonis mere
 *{
   box-sizing: border-box;
-
+  margin: 0;
+  /* DEBUG:  */
+  border:1px solid black;
+   padding:5px;
 }
 
 
@@ -17,10 +21,20 @@
 
 body, html{
   width: 100%;
-  background-color: lightgrey;
+  min-height: 100vh;
 }
-#prova{
- color: red;
- @include fullSize;
- background-color:$bg_primary
+
+ul{
+  list-style: none;
 }
+
+a{
+  text-decoration: none;
+}
+// #prova{
+//  color: red;
+//  @include fullSize;
+//  height: 200px;
+//  background-color:$bg_primary;
+//
+// }

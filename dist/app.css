@@ -2,93 +2,45 @@
   color: blue;
 }
 
-.margin1 {
-  margin: 10px;
-}
-
-.margin2 {
-  margin: 20px;
-}
-
-.margin3 {
-  margin: 30px;
-}
-
-.margin4 {
-  margin: 40px;
-}
-
-.margin5 {
-  margin: 50px;
-}
-
-.item1 {
-  width: 500px;
-}
-
-.item2 {
-  width: 500px;
-}
-
-.padding-6 {
-  padding: 60px;
-}
-
-.padding-4 {
-  padding: 40px;
-}
-
-.padding-2 {
-  padding: 20px;
-}
-
-.Margin-top-15 {
-  margin-top: 15px;
-}
-
-.Margin-top-30 {
-  margin-top: 30px;
-}
-
-.Margin-top-45 {
-  margin-top: 45px;
-}
-
-.Margin-top-60 {
-  margin-top: 60px;
-}
-
-.Margin-top-60 {
-  margin-top: 60px;
-}
-
-.Margin-top-45 {
-  margin-top: 45px;
-}
-
-.Margin-top-30 {
-  margin-top: 30px;
-}
-
-.Margin-top-15 {
-  margin-top: 15px;
-}
-
 * {
   box-sizing: border-box;
+  margin: 0;
+  /* DEBUG:  */
+  border: 1px solid black;
+  padding: 5px;
+}
+
+header section.n1 .my-container {
+  width: 1200px;
+  margin: auto;
+}
+
+header section.n1 .my-container .navbar-up {
+  height: 50px;
+  background-color: red;
+}
+
+header section.n1 .my-container .navbar-up ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header section.n1 .my-container .navbar-down {
+  height: 50px;
+  background-color: green;
 }
 
 body,
 html {
   width: 100%;
-  background-color: lightgrey;
+  min-height: 100vh;
 }
 
-#prova {
-  color: red;
-  width: 100vw;
-  height: 100vh;
-  background-color: lightblue;
-  background-color: green;
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
 }
 
