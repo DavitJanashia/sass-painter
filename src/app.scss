@@ -7,7 +7,7 @@
   margin: 0;
   /* DEBUG:  */
   border:1px solid black;
-   padding:5px;
+  padding:5px;
 }
 
 
@@ -22,6 +22,7 @@
 body, html{
   width: 100%;
   min-height: 100vh;
+  font-family: arial, monospace;
 }
 
 ul{

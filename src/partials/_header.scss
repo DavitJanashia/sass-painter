@@ -1,27 +1,62 @@
 header{
 
   section.n1{
+    background-color: black;
+
     .my-container{
       width: 1200px;
       margin: auto;
 
+
       .navbar-up{
         height: 50px;
-        background-color: red;
+
+        a{
+          color: grey;
+        }
+
+        i{
+          color: blue;
+        }
+        // background-color: red;
+        display: flex;
+        justify-content: flex-end;
 
         ul{
           display: flex;
-          justify-content: flex-end;
         }
-
       }
 
       .navbar-down{
         height: 50px;
-        background-color: green;
+        // background-color: green;
+        display: flex;
+        justify-content: space-between;
+
+        a{
+          color: white;
+        }
+
+        i{
+          color: grey;
+        }
+
+        ul{
+          display: flex;
+        }
+
       }
 
     }
+
+  }
+
+
+  section.n2{
+    background-image: url('https://www.painterartist.com/static/ptr/product_content/painteressentials/7/hero-painteressentials-7.jpg');
+    height: 460px;
+    background-size: cover;
+    background-position: center;
 
   }
 }
