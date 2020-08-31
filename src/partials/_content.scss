@@ -44,8 +44,19 @@ div.content{
 
       }
     }
+  }
 
+  section.n2{
+    background-image: url('https://www.painterartist.com/static/ptr/product_content/painteressentials/7/image-bg-02.jpg');
+    height: 100vh;
+    @include backgroundProps;
+    background-attachment: fixed;
+  }
 
-
+  section.n4{
+    background-image: url('https://www.painterartist.com/static/ptr/product_content/painteressentials/7/image-bg-01.jpg');
+    height: 100vh;
+    @include backgroundProps;
+    background-attachment: fixed;
   }
 }
