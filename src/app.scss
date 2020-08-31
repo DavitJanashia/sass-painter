@@ -7,11 +7,12 @@
   margin: 0;
   /* DEBUG:  */
   border:1px solid black;
-  padding:5px;
+  // padding:5px;
 }
 
 
 @import "partials/_header.scss";
+@import "partials/_navbar_fixed.scss";
 @import "partials/_content.scss";
 @import "partials/_footer.scss";
 

@@ -1,3 +1,47 @@
 div.content{
-  // regole
+  section.n1{
+    position: relative;
+    background-image: url('https://www.painterartist.com/static/ptr/product_content/painteressentials/7/intro.jpg');
+    height: 902px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .content-box{
+      width: 1200px;
+      margin: auto;
+
+      .vid-box{
+        width: 1000px;
+        margin: auto;
+        position: relative;
+
+        .frame{
+          position: absolute;
+          background-image: url('https://www.painterartist.com/static/ptr/product_content/painteressentials/7/intro-screen.png');
+          width: 1000px;
+          height: 570px;
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+
+        }
+
+        .girl{
+
+          background-image: url('https://www.painterartist.com/static/ptr/product_content/painteressentials/7/intro-bg.jpg');
+          width: 970px;
+          height: 570px;
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+          margin: auto;
+        }
+
+      }
+    }
+
+
+
+  }
 }

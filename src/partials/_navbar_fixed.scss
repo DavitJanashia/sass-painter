@@ -1,0 +1,31 @@
+// bisogna usare js per media query dello scroll
+
+
+.navbar-fixed{
+  height: 65px;
+  background-color: lightgrey;
+
+  section.n1{
+    width: 1200px;
+    margin: auto;
+    height: 100%;
+
+    ul{
+      display: flex;
+      color: black;
+      font-size: 20px;
+
+      li{
+        a{
+          font-size: 18px;
+          padding: 17px 24px 18px;
+          width: 137px;
+          display: block;
+          text-align: center;
+        }
+      }
+
+    }
+  }
+
+}

@@ -7,7 +7,6 @@
   margin: 0;
   /* DEBUG:  */
   border: 1px solid black;
-  padding: 5px;
 }
 
 header section.n1 {
@@ -60,6 +59,71 @@ header section.n2 {
   height: 460px;
   background-size: cover;
   background-position: center;
+}
+
+.navbar-fixed {
+  height: 65px;
+  background-color: lightgrey;
+}
+
+.navbar-fixed section.n1 {
+  width: 1200px;
+  margin: auto;
+  height: 100%;
+}
+
+.navbar-fixed section.n1 ul {
+  display: flex;
+  color: black;
+  font-size: 20px;
+}
+
+.navbar-fixed section.n1 ul li a {
+  font-size: 18px;
+  padding: 17px 24px 18px;
+  width: 137px;
+  display: block;
+  text-align: center;
+}
+
+div.content section.n1 {
+  position: relative;
+  background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/intro.jpg");
+  height: 902px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+div.content section.n1 .content-box {
+  width: 1200px;
+  margin: auto;
+}
+
+div.content section.n1 .content-box .vid-box {
+  width: 1000px;
+  margin: auto;
+  position: relative;
+}
+
+div.content section.n1 .content-box .vid-box .frame {
+  position: absolute;
+  background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/intro-screen.png");
+  width: 1000px;
+  height: 570px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+div.content section.n1 .content-box .vid-box .girl {
+  background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/intro-bg.jpg");
+  width: 970px;
+  height: 570px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: auto;
 }
 
 body,
