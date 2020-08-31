@@ -48,10 +48,17 @@ div.content{
 
   section.n2{
     background-image: url('https://www.painterartist.com/static/ptr/product_content/painteressentials/7/image-bg-02.jpg');
-    height: 100vh;
+    height: 500px;
     @include backgroundProps;
     background-attachment: fixed;
   }
+
+
+  section.n3{
+    height: 300px;
+    background-color: red;
+  }
+
 
   section.n4{
     background-image: url('https://www.painterartist.com/static/ptr/product_content/painteressentials/7/image-bg-01.jpg');

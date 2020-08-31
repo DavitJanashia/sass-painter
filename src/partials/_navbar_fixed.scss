@@ -4,6 +4,8 @@
 .navbar-fixed{
   height: 65px;
   background-color: lightgrey;
+  z-index: 999;
+
 
   section.n1{
     width: 1200px;
@@ -28,4 +30,11 @@
     }
   }
 
+}
+
+.fix{
+  position: fixed;
+  top:0;
+  left: 0;
+  width: 100%;
 }

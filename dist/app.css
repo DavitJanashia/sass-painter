@@ -36,10 +36,26 @@ header section.n1 .my-container .navbar-up ul {
   display: flex;
 }
 
+header section.n1 .my-container .navbar-up select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 70px;
+  height: 19px;
+  border-radius: 3px;
+  font-size: 12px;
+  padding: 0 3px;
+}
+
 header section.n1 .my-container .navbar-down {
   height: 50px;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
+}
+
+header section.n1 .my-container .navbar-down a .my-header-logo img {
+  width: 90px;
+  height: 24px;
 }
 
 header section.n1 .my-container .navbar-down a {
@@ -64,6 +80,7 @@ header section.n2 {
 .navbar-fixed {
   height: 65px;
   background-color: lightgrey;
+  z-index: 999;
 }
 
 .navbar-fixed section.n1 {
@@ -84,6 +101,13 @@ header section.n2 {
   width: 137px;
   display: block;
   text-align: center;
+}
+
+.fix {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 div.content section.n1 {
@@ -142,11 +166,16 @@ div.content section.n1 .content-box .vid-box .girl span img {
 
 div.content section.n2 {
   background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/image-bg-02.jpg");
-  height: 100vh;
+  height: 500px;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+
+div.content section.n3 {
+  height: 300px;
+  background-color: red;
 }
 
 div.content section.n4 {

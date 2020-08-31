@@ -10981,10 +10981,37 @@ var $ = __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js"
 
 
 function init() {
-  console.log('Davit Janashia');
+  scrollNavFix();
 }
 
 $(document).ready(init);
+
+function scrollNavFix() {
+  var nav = $('.navbar-fixed');
+
+  function fixedNav() {
+    if ($(window).scrollTop() > $('header').height()) {
+      nav.addClass("fix");
+    } else {
+      nav.removeClass("fix");
+    }
+  }
+
+  fixedNav();
+  $(window).on('scroll', function () {
+    var scrollPX = $(window).scrollTop();
+    var winH = $(window).height();
+    var headerH = $('header').height();
+
+    if (scrollPX > headerH) {
+      nav.addClass("fix");
+    } else {
+      nav.removeClass("fix");
+    }
+
+    console.log(scrollPX, winH);
+  });
+}
 
 /***/ }),
 

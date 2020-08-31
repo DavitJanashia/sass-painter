@@ -25,13 +25,36 @@ header{
         ul{
           display: flex;
         }
+
+        select {
+          -webkit-appearance: none;
+          -moz-appearance: none;
+          appearance: none;
+          width: 70px;
+          height: 19px;
+          border-radius: 3px;
+          font-size: 12px;
+          padding: 0 3px;
+        }
+
       }
 
       .navbar-down{
         height: 50px;
         // background-color: green;
         display: flex;
-        justify-content: space-between;
+        justify-content: flex-start;
+
+        a{
+
+          .my-header-logo{
+
+            img{
+              width: 90px;
+              height: 24px;
+            }
+          }
+        }
 
         a{
           color: white;
