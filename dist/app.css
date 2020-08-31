@@ -117,13 +117,27 @@ div.content section.n1 .content-box .vid-box .frame {
 }
 
 div.content section.n1 .content-box .vid-box .girl {
+  margin: auto;
   background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/intro-bg.jpg");
   width: 970px;
   height: 570px;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  margin: auto;
+}
+
+div.content section.n1 .content-box .vid-box .girl span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+div.content section.n1 .content-box .vid-box .girl span img {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
 }
 
 body,
